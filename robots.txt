@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smppas4bdg.github.io/smppasundan4bandung/sitemap.xml
