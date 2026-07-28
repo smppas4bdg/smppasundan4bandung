@@ -161,7 +161,7 @@
             useEffect(() => {
                 const interval = setInterval(() => {
                     setArticleOffset(prev => (prev + 1) % articles.length);
-                }, 2000000); // Ganti setiap 2 detik (2000 ms)
+                }, 5000); // Ganti setiap 5 detik (5000 ms)
                 return () => clearInterval(interval);
             }, []);
 
@@ -1915,7 +1915,7 @@
                 // Tampilan Detail Artikel
                 if (selectedArticle) {
                 return (
-                    <div className="pt-28 pb-20 animate-slide-up min-h-screen bg-gray-50">
+                    <div className="pt-28 pb-20 min-h-screen bg-gray-50">
                     <div className="max-w-3xl mx-auto px-4">
                         <button 
                         onClick={() => setSelectedArticle(null)}
